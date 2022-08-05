@@ -1,0 +1,24 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    margin: 1.5rem 8rem;
+
+    &__img{
+        width: 5rem;
+    }
+
+    &__paginas{
+        display: flex;
+        align-items: center;
+
+        &__link{
+            margin: 0 10px;
+        }
+
+        &__link:hover{
+            cursor: pointer;
+            color: #5EB14E;
+        }
+    }
+}
+    
