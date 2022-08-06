@@ -1,13 +1,9 @@
-import Header from "components/Header";
 import Banner from "assets/Home/Banner.jpg"
 import styles from "./Home.module.scss"
-import Fruta from "components/Fruta";
 
 export default function Home () {
     return(
         <div>
-            <Header />
-
             <div className={styles.home__banner}>
                 <div className={styles.home__banner__frase}>
                     <h1>Hortifruti é com</h1>
@@ -19,8 +15,6 @@ export default function Home () {
             <div className={styles.home__recomendados}>
                 <h2>Recomendamos para você</h2>
             </div>
-
-            <Fruta />
         </div>
     )
 }

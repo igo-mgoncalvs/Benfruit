@@ -1,3 +1,3 @@
-export interface IFruitList<T> {
-    results:T[]
-}
+import produtos from 'data/FruitList.json'
+
+export type IFruitList = typeof produtos[0]

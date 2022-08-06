@@ -1,24 +1,16 @@
 import axios from 'axios'
-import {API} from 'data/API'
-import { IFruit } from 'interfaces/IFruit'
+import FruitList from 'data/FruitList.json'
 import { useEffect, useState } from 'react'
 import styles from './Fruta.module.scss'
 
 export default function Fruta () {
 
-    const [fruitList, setFruitList] = useState<IFruit[]>([])
-
-    useEffect(() => {
-        axios.get('https://www.fruityvice.com/api/fruit/all')
-        .then(resposta => {
-            setFruitList(resposta.data)
-        })
-    }, [])
-    
+    const [fruitList, setFruitList] = useState(FruitList)
 
     console.log(fruitList)
     return (
         <div className={styles.Prato}>
+
             <div className={styles.Container}>
                 <div>
                     <div className={styles.EfeitoTorcao}>

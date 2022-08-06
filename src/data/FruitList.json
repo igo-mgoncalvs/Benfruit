@@ -1,0 +1,467 @@
+[
+    {
+      "genus": "Malus",
+      "name": "Apple",
+      "img": "assets/produtos/Apple.png",
+      "id": 6,
+      "family": "Rosaceae",
+      "order": "Rosales",
+      "nutritions": {
+        "carbohydrates": 11.4,
+        "protein": 0.3,
+        "fat": 0.4,
+        "calories": 52,
+        "sugar": 10.3
+      }
+    },
+    {
+      "genus": "Prunus",
+      "name": "Apricot",
+      "img": "assets/Produtos/Apricot.jpg",
+      "id": 35,
+      "family": "Rosaceae",
+      "order": "Rosales",
+      "nutritions": {
+        "carbohydrates": 3.9,
+        "protein": 0.5,
+        "fat": 0.1,
+        "calories": 15,
+        "sugar": 3.2
+      }
+    },
+    {
+      "genus": "Musa",
+      "name": "Banana",
+      "img": "assets/Produtos/Banana.jpg",
+      "id": 1,
+      "family": "Musaceae",
+      "order": "Zingiberales",
+      "nutritions": {
+        "carbohydrates": 22,
+        "protein": 1,
+        "fat": 0.2,
+        "calories": 96,
+        "sugar": 17.2
+      }
+    },
+    {
+      "genus": "Rubus",
+      "name": "Blackberry",
+      "img": "assets/Produtos/Blackberry.jpg",
+      "id": 64,
+      "family": "Rosaceae",
+      "order": "Rosales",
+      "nutritions": {
+        "carbohydrates": 9,
+        "protein": 1.3,
+        "fat": 0.4,
+        "calories": 40,
+        "sugar": 4.5
+      }
+    },
+    {
+      "genus": "Fragaria",
+      "name": "Blueberry",
+      "img": "assets/Produtos/Blueberry.jpg",
+      "id": 33,
+      "family": "Rosaceae",
+      "order": "Rosales",
+      "nutritions": {
+        "carbohydrates": 5.5,
+        "protein": 0,
+        "fat": 0.4,
+        "calories": 29,
+        "sugar": 5.4
+      }
+    },
+    {
+      "genus": "Prunus",
+      "name": "Cherry",
+      "img": "assets/Produtos/Cherry.jpg",
+      "id": 9,
+      "family": "Rosaceae",
+      "order": "None",
+      "nutritions": {
+        "carbohydrates": 12,
+        "protein": 1,
+        "fat": 0.3,
+        "calories": 50,
+        "sugar": 8
+      }
+    },
+    {
+      "genus": "Durio",
+      "name": "Durian",
+      "img": "assets/Produtos/Durian.jpg",
+      "id": 60,
+      "family": "Malvaceae",
+      "order": "Malvales",
+      "nutritions": {
+        "carbohydrates": 27.1,
+        "protein": 1.5,
+        "fat": 5.3,
+        "calories": 147,
+        "sugar": 6.75
+      }
+    },
+    {
+      "genus": "Ficus",
+      "name": "Fig",
+      "img": "assets/Produtos/Fig.jpg",
+      "id": 68,
+      "family": "Moraceae",
+      "order": "Rosales",
+      "nutritions": {
+        "carbohydrates": 19,
+        "protein": 0.8,
+        "fat": 0.3,
+        "calories": 74,
+        "sugar": 16
+      }
+    },
+    {
+      "genus": "Ribes",
+      "name": "Gooseberry",
+      "img": "assets/Produtos/Gooseberry.jpg",
+      "id": 69,
+      "family": "Grossulariaceae",
+      "order": "Saxifragales",
+      "nutritions": {
+        "carbohydrates": 10,
+        "protein": 0.9,
+        "fat": 0.6,
+        "calories": 44,
+        "sugar": 0
+      }
+    },
+    {
+      "genus": "Vitis",
+      "name": "Grapes",
+      "img": "assets/Produtos/Grapes.jpg",
+      "id": 47,
+      "family": "Vitaceae",
+      "order": "Vitales",
+      "nutritions": {
+        "carbohydrates": 18.1,
+        "protein": 0.72,
+        "fat": 0.16,
+        "calories": 69,
+        "sugar": 15.48
+      }
+    },
+    {
+      "genus": "Malus",
+      "name": "GreenApple",
+      "img": "assets/Produtos/GreenApple.jpg",
+      "id": 72,
+      "family": "Rosaceae",
+      "order": "Rosales",
+      "nutritions": {
+        "carbohydrates": 3.1,
+        "protein": 0.4,
+        "fat": 0.1,
+        "calories": 21,
+        "sugar": 6.4
+      }
+    },
+    {
+      "genus": "Psidium",
+      "name": "Guava",
+      "img": "assets/Produtos/Guava.jpg",
+      "id": 37,
+      "family": "Myrtaceae",
+      "order": "Myrtales",
+      "nutritions": {
+        "carbohydrates": 14,
+        "protein": 2.6,
+        "fat": 1,
+        "calories": 68,
+        "sugar": 9
+      }
+    },
+    {
+      "genus": "Apteryx",
+      "name": "Kiwi",
+      "img": "assets/Produtos/Kiwi.jpg",
+      "id": 66,
+      "family": "Actinidiaceae",
+      "order": "Struthioniformes",
+      "nutritions": {
+        "carbohydrates": 15,
+        "protein": 1.1,
+        "fat": 0.5,
+        "calories": 61,
+        "sugar": 9
+      }
+    },
+    {
+      "genus": "Citrus",
+      "name": "Lemon",
+      "img": "assets/Produtos/Lemon.jpg",
+      "id": 26,
+      "family": "Rutaceae",
+      "order": "Sapindales",
+      "nutritions": {
+        "carbohydrates": 9,
+        "protein": 1.1,
+        "fat": 0.3,
+        "calories": 29,
+        "sugar": 2.5
+      }
+    },
+    {
+      "genus": "Citrus",
+      "name": "Lime",
+      "img": "assets/Produtos/Lime.jpg",
+      "id": 44,
+      "family": "Rutaceae",
+      "order": "Sapindales",
+      "nutritions": {
+        "carbohydrates": 8.4,
+        "protein": 0.3,
+        "fat": 0.1,
+        "calories": 25,
+        "sugar": 1.7
+      }
+    },
+    {
+      "genus": "Vaccinium",
+      "name": "Lingonberry",
+      "img": "assets/Produtos/Lingonberry.jpg",
+      "id": 65,
+      "family": "Ericaceae",
+      "order": "Ericales",
+      "nutritions": {
+        "carbohydrates": 11.3,
+        "protein": 0.75,
+        "fat": 0.34,
+        "calories": 50,
+        "sugar": 5.74
+      }
+    },
+    {
+      "genus": "Litchi",
+      "name": "Lychee",
+      "img": "assets/Produtos/Lychee.jpg",
+      "id": 67,
+      "family": "Sapindaceae",
+      "order": "Sapindales",
+      "nutritions": {
+        "carbohydrates": 17,
+        "protein": 0.8,
+        "fat": 0.44,
+        "calories": 66,
+        "sugar": 15
+      }
+    },
+    {
+      "genus": "Mangifera",
+      "name": "Mango",
+      "img": "assets/Produtos/Mango.jpg",
+      "id": 27,
+      "family": "Anacardiaceae",
+      "order": "Sapindales",
+      "nutritions": {
+        "carbohydrates": 15,
+        "protein": 0.82,
+        "fat": 0.38,
+        "calories": 60,
+        "sugar": 13.7
+      }
+    },
+    {
+      "genus": "Cucumis",
+      "name": "Melon",
+      "img": "assets/Produtos/Melon.jpg",
+      "id": 41,
+      "family": "Cucurbitaceae",
+      "order": "Cucurbitaceae",
+      "nutritions": {
+        "carbohydrates": 8,
+        "protein": 0,
+        "fat": 0,
+        "calories": 34,
+        "sugar": 8
+      }
+    },
+    {
+      "genus": "Citrus",
+      "name": "Orange",
+      "img": "assets/Produtos/Orange.jpg",
+      "id": 2,
+      "family": "Rutaceae",
+      "order": "Sapindales",
+      "nutritions": {
+        "carbohydrates": 8.3,
+        "protein": 1,
+        "fat": 0.2,
+        "calories": 43,
+        "sugar": 8.2
+      }
+    },
+    {
+      "genus": "Carica",
+      "name": "Papaya",
+      "img": "assets/Produtos/Papaya.jpg",
+      "id": 42,
+      "family": "Caricaceae",
+      "order": "Caricacea",
+      "nutritions": {
+        "carbohydrates": 11,
+        "protein": 0,
+        "fat": 0.4,
+        "calories": 43,
+        "sugar": 1
+      }
+    },
+    {
+      "genus": "Passiflora",
+      "name": "Passionfruit",
+      "img": "assets/Produtos/Passionfruit.jpg",
+      "id": 70,
+      "family": "Passifloraceae",
+      "order": "Malpighiales",
+      "nutritions": {
+        "carbohydrates": 22.4,
+        "protein": 2.2,
+        "fat": 0.7,
+        "calories": 97,
+        "sugar": 11.2
+      }
+    },
+    {
+      "genus": "Pyrus",
+      "name": "Pear",
+      "img": "assets/Produtos/Pear.jpg",
+      "id": 4,
+      "family": "Rosaceae",
+      "order": "Rosales",
+      "nutritions": {
+        "carbohydrates": 15,
+        "protein": 0.4,
+        "fat": 0.1,
+        "calories": 57,
+        "sugar": 10
+      }
+    },
+    {
+      "genus": "Diospyros",
+      "name": "Persimmon",
+      "img": "assets/Produtos/Persimmon.jpg",
+      "id": 52,
+      "family": "Ebenaceae",
+      "order": "Rosales",
+      "nutritions": {
+        "carbohydrates": 18,
+        "protein": 0,
+        "fat": 0,
+        "calories": 81,
+        "sugar": 18
+      }
+    },
+    {
+      "genus": "Ananas",
+      "name": "Pineapple",
+      "img": "assets/Produtos/Pineapple.jpg",
+      "id": 10,
+      "family": "Bromeliaceae",
+      "order": "Poales",
+      "nutritions": {
+        "carbohydrates": 13.12,
+        "protein": 0.54,
+        "fat": 0.12,
+        "calories": 50,
+        "sugar": 9.85
+      }
+    },
+    {
+      "genus": "Prunus",
+      "name": "Plum",
+      "img": "assets/Produtos/Plum.jpg",
+      "id": 71,
+      "family": "Rosaceae",
+      "order": "Rosales",
+      "nutritions": {
+        "carbohydrates": 11.4,
+        "protein": 0.7,
+        "fat": 0.28,
+        "calories": 46,
+        "sugar": 9.92
+      }
+    },
+    {
+      "genus": "Rubus",
+      "name": "Raspberry",
+      "img": "assets/Produtos/Raspberry.jpg",
+      "id": 23,
+      "family": "Rosaceae",
+      "order": "Rosales",
+      "nutritions": {
+        "carbohydrates": 12,
+        "protein": 1.2,
+        "fat": 0.7,
+        "calories": 53,
+        "sugar": 4.4
+      }
+    },
+    {
+      "genus": "Fragaria",
+      "name": "Strawberry",
+      "img": "assets/Produtos/Strawberry.jpg",
+      "id": 3,
+      "family": "Rosaceae",
+      "order": "Rosales",
+      "nutritions": {
+        "carbohydrates": 5.5,
+        "protein": 0.8,
+        "fat": 0.4,
+        "calories": 29,
+        "sugar": 5.4
+      }
+    },
+    {
+      "genus": "Solanum",
+      "name": "Tomato",
+      "img": "assets/Produtos/Tomato.jpg",
+      "id": 5,
+      "family": "Solanaceae",
+      "order": "Solanales",
+      "nutritions": {
+        "carbohydrates": 3.9,
+        "protein": 0.9,
+        "fat": 0.2,
+        "calories": 74,
+        "sugar": 2.6
+      }
+    },
+    {
+      "genus": "Spondias",
+      "name": "Umbu",
+      "img": "assets/Produtos/Umbu.jpg",
+      "id": 73,
+      "family": "Anacardiaceae",
+      "order": "0",
+      "nutritions": {
+        "carbohydrates": 0,
+        "protein": 0,
+        "fat": 0,
+        "calories": 0,
+        "sugar": 0
+      }
+    },
+    {
+      "genus": "Citrullus",
+      "name": "Watermelon",
+      "img": "assets/Produtos/Watermelon.jpg",
+      "id": 25,
+      "family": "Cucurbitaceae",
+      "order": "Cucurbitales",
+      "nutritions": {
+        "carbohydrates": 8,
+        "protein": 0.6,
+        "fat": 0.2,
+        "calories": 30,
+        "sugar": 6
+      }
+    }
+  ]
