@@ -3,6 +3,7 @@ import Item from './Item';
 import styles from './Itens.module.scss';
 import { useEffect, useState } from 'react';
 import { OrdenarFruitList } from 'interfaces/IFruitList';
+import Carrinho from 'pages/Carrinho';
 
 interface Props {
     busca: string;

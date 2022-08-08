@@ -15,6 +15,9 @@ export default function Header () {
         }, {
             label: 'Promo',
             to: '/Promo'
+        }, {
+            label: <AddShoppingCartIcon />,
+            to: '/Carrinho'
         }
     ]
     return(
@@ -30,10 +33,6 @@ export default function Header () {
                             {item.label}
                         </Link>
                     ))}
-                </div>
-
-                <div>
-                    <AddShoppingCartIcon style={{marginLeft: 10}}/>
                 </div>
             </div>
         </div>

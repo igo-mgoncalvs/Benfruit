@@ -2,7 +2,7 @@
     {
       "genus": "Malus",
       "name": "Apple",
-      "img": "./assets/produtos/Apple.png",
+      "img": "assets/Produtos/Apricot.png",
       "id": 6,
       "family": "Rosaceae",
       "order": "Rosales",
@@ -152,7 +152,7 @@
     {
       "genus": "Malus",
       "name": "GreenApple",
-      "img": "assets/Produtos/GreenApple.jpeg",
+      "img": "assets/Produtos/GreenApple.jpg",
       "id": 72,
       "family": "Rosaceae",
       "order": "Rosales",
@@ -257,7 +257,7 @@
     {
       "genus": "Mangifera",
       "name": "Mango",
-      "img": "assets/Produtos/Mango.jpeg",
+      "img": "assets/Produtos/Mango.jpg",
       "id": 27,
       "family": "Anacardiaceae",
       "order": "Sapindales",
@@ -272,7 +272,7 @@
     {
       "genus": "Cucumis",
       "name": "Melon",
-      "img": "assets/Produtos/Melon.png",
+      "img": "assets/Produtos/Melon.jpg",
       "id": 41,
       "family": "Cucurbitaceae",
       "order": "Cucurbitaceae",

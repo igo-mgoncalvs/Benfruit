@@ -1,11 +1,26 @@
 import styles from './Item.module.scss';
 import { useNavigate } from 'react-router-dom';
-import { IFruitList } from 'interfaces/IFruitList';
+import { IFruit, IFruitList } from 'interfaces/IFruitList';
+import Carrinho from 'pages/Carrinho';
+import { useEffect, useState } from 'react';
+import { ConstructionOutlined } from '@mui/icons-material';
+import { listClasses } from '@mui/material';
+import Itens from '..';
 
-export default function Item(props: IFruitList) {
-    const navigate = useNavigate();
+export default function Item(props: IFruit) {
+    const [carrinho, setCarrinho] = useState(Number)
+
+    useEffect(() => {
+        const itensCarrinho = []
+
+        for(let i = 1; i < localStorage.length; i++){
+            itensCarrinho.push(localStorage[i])
+        itensCarrinho.push(carrinho)}
+
+    }, [carrinho])
+    
     return (
-        <div className={styles.item} onClick={() => navigate(`/prato/${props.id}`)}>
+        <div className={styles.item}>
             <div className={styles.item__imagem}>
                 <img src={props.img} alt={props.name} />
             </div>
@@ -20,6 +35,15 @@ export default function Item(props: IFruitList) {
                         Açúcares: {props.nutritions.sugar} | 
                     </p>
                 </div>
+
+                <p className={styles.item__carrinho} onClick={() => {
+                    setCarrinho(props.id)
+                    localStorage.setItem(`${localStorage.length}`, `${props.id}`)
+
+                }}>
+                    Adicionar ao carrinho
+                </p>
+
             </div>
         </div>
     );

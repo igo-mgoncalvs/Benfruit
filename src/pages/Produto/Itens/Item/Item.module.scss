@@ -3,7 +3,6 @@
 .item {
   align-items: center;
   border-radius: 10px;
-  cursor: pointer;
   display: flex;
   flex-wrap: wrap;
   padding: 20px;
@@ -48,5 +47,25 @@
       max-width: 600px;
       margin-bottom: 20px;
     }
+  }
+
+  &__carrinho{
+    display: flex;
+    font-weight: bold;
+    color: rgb(65, 65, 65);
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(174, 243, 96);
+    padding: 0.5rem 1rem;
+    border-radius: 8px;
+    width: 180px;
+    height: 2rem;
+  }
+
+  &__carrinho:hover{
+    cursor: pointer;
+    background-color:rgb(136, 214, 46);
+    color: black;
+    transition: 0.2s;
   }
 }
