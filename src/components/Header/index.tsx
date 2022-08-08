@@ -1,7 +1,6 @@
 import Benfruit_Logo from "assets/BenfuitLogo.svg"
 import ShoppingCartIcon from '@mui/icons-material/ShoppingCart';
 import AddShoppingCartIcon from '@mui/icons-material/AddShoppingCart';
-import SearchIcon from '@mui/icons-material/Search';
 import styles from "./Header.module.scss"
 import { Link } from "react-router-dom";
 
@@ -34,7 +33,6 @@ export default function Header () {
                 </div>
 
                 <div>
-                    <SearchIcon style={{marginLeft: 10}} />
                     <AddShoppingCartIcon style={{marginLeft: 10}}/>
                 </div>
             </div>
