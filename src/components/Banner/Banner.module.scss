@@ -1,0 +1,25 @@
+.banner{
+    display: flex;
+
+    &__frase {    
+        background-image: linear-gradient(to right, #fff 52%,rgba(255, 255, 255, 0)80%); 
+        width: 100vw;
+        height: 26vw;
+        z-index: 100;
+        
+        & h1{
+            margin: 5rem 0 0 8rem;
+        }
+
+        & h2{
+            margin: 0;
+        }
+    }
+    
+    &__img{
+        position: absolute;
+        right: 0;
+        width: 713px;
+        height: 26vw;
+    }
+}

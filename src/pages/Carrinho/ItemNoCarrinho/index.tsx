@@ -1,8 +1,8 @@
-import styles from './Item.module.scss';
+import styles from './ItemNoCarrinho.module.scss';
 import { IFruit } from 'interfaces/IFruitList';
 
-export default function Item(props: IFruit) {
-    
+export default function ItemNoCarrinho(props: IFruit) {
+
     return (
         <div className={styles.item}>
             <div className={styles.item__imagem}>
@@ -21,9 +21,11 @@ export default function Item(props: IFruit) {
                 </div>
 
                 <p className={styles.item__carrinho} onClick={() => {
-                    localStorage.setItem(props.name, props.name)
+                    localStorage.removeItem(props.name)
+                    alert('O item foi removido do carrinho')
+                    window.location.reload()
                 }}>
-                    Adicionar ao carrinho
+                    Remover do carrinho
                 </p>
 
             </div>

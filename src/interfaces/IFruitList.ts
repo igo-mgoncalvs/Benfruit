@@ -1,9 +1,5 @@
 import produtos from 'data/FruitList.json'
 
-export interface IFruitList {
-    id:number
-}
-
 export type OrdenarFruitList = typeof produtos
 
 export interface IFruit {
@@ -16,5 +12,6 @@ export interface IFruit {
         fat: number,
         protein: number,
         sugar: number
-    }
+    },
+    numberList:number
 }

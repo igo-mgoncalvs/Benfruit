@@ -1,33 +1,42 @@
-import { Value } from 'classnames'
-import { IFruit, IFruitList } from 'interfaces/IFruitList'
 import { useEffect, useState } from 'react'
 import styles from './Carrinho.module.scss'
 import produtosData from 'data/FruitList.json'
-import { idText } from 'typescript'
+
+import ItemNoCarrinho from './ItemNoCarrinho'
 
 export default function Carrinho () {
-    const [itens, setItens] = useState<any[]>([])
-    const [produtos, setProdutos] = useState<IFruit[]>([])
+    const [produtos, setProdutos] = useState<any[]>([])
     
     useEffect(() => {
-        const listaDeItens = []
-        for (let i = 0; i < localStorage.length; i++) {
-            listaDeItens.push(localStorage[i])
+        const listaDeItens = Object.keys(localStorage)
+        const listaCarrinho = []
+        for (let i = 0; i < listaDeItens.length; i++) {
+            listaCarrinho.push(produtosData.find(find => find.name === listaDeItens[i]))
         }
+        setProdutos(listaCarrinho)        
+    }, [])
 
-        setItens(listaDeItens)
-
-        itens.forEach(resposta => {
-            setProdutos(produtosData.filter(filtro => filtro.id === resposta))
-        })
-
-        console.log(produtos)
-
-    },[])
+    function verificaCarrinho() {
+        if(produtos.length < 1){
+            return (
+                <h1>Parece que você ainda não tem nenhum item no carrinho</h1>
+            )
+        } else {
+            return (
+                <div>
+                    {produtos.map((item, key) => (
+                        <ItemNoCarrinho key={key}
+                        numberList={key}
+                        {...item}/>
+                    ))}
+                </div>
+            )
+        }
+    }
 
     return (
-        <section>
-            
+        <section className={styles.carrinho}>
+            {verificaCarrinho()}
         </section>
     )
 }

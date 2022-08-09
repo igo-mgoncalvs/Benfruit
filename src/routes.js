@@ -1,3 +1,4 @@
+import Banner from 'components/Banner'
 import Header from 'components/Header'
 import Carrinho from 'pages/Carrinho'
 import Home from 'pages/Home'
@@ -8,6 +9,7 @@ export default function AppRouter () {
     return(
         <Router>
             <Header />
+            <Banner />
             <Routes>
                 <Route path='/' element={<Home />}/>
                 <Route path='/Produtos' element={<Produtos />} />
