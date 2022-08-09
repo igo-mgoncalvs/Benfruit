@@ -27,7 +27,6 @@ export default function ItemNoCarrinho(props: IFruit) {
                 }}>
                     Remover do carrinho
                 </p>
-
             </div>
         </div>
     );
