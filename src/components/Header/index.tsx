@@ -7,7 +7,7 @@ export default function Header () {
     const routes = [
         {
             label: 'Home',
-            to: '/Benfuit'
+            to: '/Benfruit'
         }, {
             label: 'Produtos',
             to: '/Benfruit/Produtos'
