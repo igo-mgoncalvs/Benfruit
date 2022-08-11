@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/static/css/main.a128c580.css",
-    "main.js": "/static/js/main.ca0b0f90.js",
-    "static/media/Banner.jpg": "./static/media/Banner.f25de0caf270138f2dfc.jpg",
-    "static/media/BenfuitLogo.svg": "./static/media/BenfuitLogo.caef622e6e3e4bbb5111cc00e11bbc2f.svg",
+    "main.js": "/static/js/main.becc9ac3.js",
+    "static/media/Banner.jpg": "/static/media/Banner.f25de0caf270138f2dfc.jpg",
+    "static/media/BenfuitLogo.svg": "/static/media/BenfuitLogo.caef622e6e3e4bbb5111cc00e11bbc2f.svg",
     "index.html": "/index.html",
     "main.a128c580.css.map": "/static/css/main.a128c580.css.map",
-    "main.ca0b0f90.js.map": "/static/js/main.ca0b0f90.js.map"
+    "main.becc9ac3.js.map": "/static/js/main.becc9ac3.js.map"
   },
   "entrypoints": [
     "static/css/main.a128c580.css",
-    "static/js/main.ca0b0f90.js"
+    "static/js/main.becc9ac3.js"
   ]
 }

@@ -12,7 +12,7 @@ export default function AppRouter () {
             <Banner />
             <Routes>
                 <Route path='/' element={<Home />}/>
-                <Route path='/Produtos' element={<Produtos />} />
+                <Route path='/Benfuit/Produtos' element={<Produtos />} />
                 <Route path='/Carrinho' element={<Carrinho />} />
             </Routes>
         </Router>
