@@ -13,7 +13,7 @@ export default function Header () {
             to: '/Benfuit/Produtos'
         }, {
             label: <ShoppingCartIcon />,
-            to: '/Carrinho'
+            to: '/Benfuit/Carrinho'
         }
     ]
     return(
