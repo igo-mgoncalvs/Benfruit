@@ -22,6 +22,7 @@ export default function Item(props: IFruit) {
 
                 <p className={styles.item__carrinho} onClick={() => {
                     localStorage.setItem(props.name, props.name)
+                    alert('Você agora pode encontrar o produto no carrinho')
                 }}>
                     Adicionar ao carrinho
                 </p>

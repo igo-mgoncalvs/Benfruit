@@ -23,7 +23,6 @@ export default function ItemNoCarrinho(props: IFruit) {
                 <p className={styles.item__carrinho} onClick={() => {
                     localStorage.removeItem(props.name)
                     alert('O item foi removido do carrinho')
-                    window.location.reload()
                 }}>
                     Remover do carrinho
                 </p>

@@ -23,7 +23,7 @@ export default function Fruta(item: IFruit) {
 
           <p className={styles.carrinho} onClick={() => {
                       localStorage.setItem(item.name, item.name)
-                      alert('Oproduto já está no carrinho')
+                      alert('Você agora pode encontrar o produto no carrinho')
                   }}>
                       Adicionar ao carrinho
                   </p>
