@@ -11,9 +11,9 @@ export default function AppRouter () {
             <Header />
             <Banner />
             <Routes>
-                <Route path='/' element={<Home />}/>
+                <Route path='/Benfuit' element={<Home />}/>
                 <Route path='/Benfuit/Produtos' element={<Produtos />} />
-                <Route path='/Carrinho' element={<Carrinho />} />
+                <Route path='/Benfuit/Carrinho' element={<Carrinho />} />
             </Routes>
         </Router>
     )
