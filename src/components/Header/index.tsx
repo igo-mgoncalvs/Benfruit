@@ -7,13 +7,13 @@ export default function Header () {
     const routes = [
         {
             label: 'Home',
-            to: '/'
+            to: '/Benfuit'
         }, {
             label: 'Produtos',
-            to: '/Benfuit/Produtos'
+            to: '/Benfruit/Produtos'
         }, {
             label: <ShoppingCartIcon />,
-            to: '/Benfuit/Carrinho'
+            to: '/Benfruit/Carrinho'
         }
     ]
     return(
